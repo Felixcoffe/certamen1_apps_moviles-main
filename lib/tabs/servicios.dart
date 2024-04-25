@@ -81,7 +81,7 @@ class ServiciosPage extends StatelessWidget {
           leading: Icon(Icons.hotel_class_outlined),
           iconColor: Color.fromARGB(255, 125, 0, 0),
           trailing: Icon(Icons.keyboard_arrow_right),
-          title: Text('Continentales', style: TextStyle(color: Colors.white)),
+          title: Text('Hoteles', style: TextStyle(color: Colors.white)),
           onTap: () {
             final route = MaterialPageRoute(builder: (context) {
               return ContinentalPage();
